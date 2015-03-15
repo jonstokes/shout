@@ -8,8 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Shout::VERSION
   spec.authors       = ["Jon Stokes"]
   spec.email         = ["jon@jonstokes.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Formatter for logging that I use in my distributed setup.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
