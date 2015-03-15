@@ -1,8 +1,13 @@
-require "shout/version"
+require 'shout/version'
+require 'shout/settings'
 
 module Shout
   def self.included(klass)
     klass.extend(self)
+  end
+
+  def self.logger
+    Shout::Settings.logger
   end
 
   def error(log_line)
